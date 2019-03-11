@@ -17,7 +17,7 @@ string parOimpar(){
 // 17
 int valorAbsoluto(){
     int n;
-    cout<<"Determinar valor absoluto de un número."<<endl;
+    cout<<"Determinar valor absoluto de un numero."<<endl;
     cout<<"Ingrese un numero Entero: "; cin>> n;
     int res = (n < 0) ? n * -1 : n;
 
@@ -28,7 +28,7 @@ int valorAbsoluto(){
 // 18
 int ProductoSuma(){
     int n1, n2;
-    cout<<"Si dos números son positivos calcule su producto, en caso contrario calcule su suma."<<endl;
+    cout<<"Si dos numeros son positivos calcule su producto, en caso contrario calcule su suma."<<endl;
     cout<<"Numero 1: "; cin>> n1;
     cout<<"Numero 2: "; cin>> n2;
     int res = (n1 > 0 && n2 > 0 ) ? n1 * n2 : n1 + n2;
@@ -40,7 +40,7 @@ int ProductoSuma(){
 // 19
 int MenorNumero(){
     int n1, n2, n3, n4, n5, menor;
-    cout<<"Sin usar estructuras repetitivas, lea 5 números y determine el menor."<<endl;
+    cout<<"Sin usar estructuras repetitivas, lea 5 numeros y determine el menor."<<endl;
     cout<<"Numero 1: "; cin>> n1;
     cout<<"Numero 2: "; cin>> n2;
     cout<<"Numero 3: "; cin>> n3;
@@ -62,7 +62,7 @@ int MenorNumero(){
 string areAscendent(){
     int n1, n2, n3, n4, n5;
     string asc;
-    cout<<"Lea 5 números y diga si están ordenados ascendentemente."<<endl;
+    cout<<"Lea 5 numeros y diga si estan ordenados ascendentemente."<<endl;
     cout<<"Numero 1: "; cin>> n1;
     cout<<"Numero 2: "; cin>> n2;
     cout<<"Numero 3: "; cin>> n3;
@@ -79,7 +79,7 @@ string areAscendent(){
 // 21
 void ordenaNumeros(){
     int a, b, c, aux; 
-    cout<<"Ordene 3 números a, b y c de tal manera que al final a, sea siempre el mayor, b sea el intermedio y c el menor."<<endl;
+    cout<<"Ordene 3 numeros a, b y c de tal manera que al final a, sea siempre el mayor, b sea el intermedio y c el menor."<<endl;
     cout<<"Numero A: "; cin>> a;
     cout<<"Numero B: "; cin>> b;
     cout<<"Numero C: "; cin>> c; 
@@ -111,7 +111,7 @@ void ordenaNumeros(){
 string esMultiplo(){
     int n, m;
     string esMultiplo;
-    cout<<"Diga si un número n es múltiplo de m."<<endl;
+    cout<<"Diga si un numero n es multiplo de m."<<endl;
     cout<<"Numero entero N: "; cin>> n;
     cout<<"Numero entero M: "; cin>> m; 
  
@@ -126,7 +126,7 @@ string esMultiplo(){
 string numeroIntermedio(){
     int n1, n2, n3, aux;
     string asc;
-    cout<<"Lea 3 números diferentes e indique cual es el valor intermedio."<<endl;
+    cout<<"Lea 3 numeros diferentes e indique cual es el valor intermedio."<<endl;
     cout<<"Numero 1: "; cin>> n1;
     cout<<"Numero 2: "; cin>> n2;
     cout<<"Numero 3: "; cin>> n3;
@@ -161,7 +161,7 @@ string numeroIntermedio(){
 float promedioNotas(){
     float T, M, F, calif;
     string asc;
-    cout<<"En una universidad tienen como política considerar 3 notas en cada curso.\n la nota de trabajos T,\nla nota de medio ciclo M\nla de fin de ciclo F \ncada una tiene un peso de 50 porciento, 20 porciento y 30 porciento respectivamente."<<endl;
+    cout<<"En una universidad tienen como politica considerar 3 notas en cada curso.\n la nota de trabajos T,\nla nota de medio ciclo M\nla de fin de ciclo F \ncada una tiene un peso de 50 porciento, 20 porciento y 30 porciento respectivamente."<<endl;
     cout<<"nota T "; cin>> T;
     cout<<"nota M: "; cin>> M;
     cout<<"nota F: "; cin>> F;

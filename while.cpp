@@ -6,7 +6,7 @@ using namespace std;
 // 33
 int identifyLength(){
     string n;
-    cout<<"Determine cuántos dígitos tiene un número entero ingresado por teclado."<<endl;
+    cout<<"Determine cuantos digitos tiene un numero entero ingresado por teclado."<<endl;
     cout<<"Ingrese un numero entero: "; cin>> n;
 
     int i = 0, counter = 0;
@@ -25,7 +25,7 @@ int identifyLength(){
 // 34
 int DigitoMayor(){
     string n;
-    cout<<"Lea un entero y diga cuál es su dígito mayor."<<endl;
+    cout<<"Lea un entero y diga cual es su digito mayor."<<endl;
     cout<<"Ingrese un numero entero: "; cin>> n;
 
     int i = 0, mayor = 0;
@@ -51,7 +51,7 @@ int DigitoMayor(){
 // 35
 int calcularCuadrado(){
     int n, cuadrado = 0;
-    cout<<"Se sabe que n2= 1+3+5+7+2n-1. Se pide leer un número y calcular su cuadrado haciendo uso de esta relación."<<endl;
+    cout<<"Se sabe que n2= 1+3+5+7+2n-1. Se pide leer un numero y calcular su cuadrado haciendo uso de esta relacion."<<endl;
     cout<<"Ingrese un numero entero: "; cin>> n;
     
 

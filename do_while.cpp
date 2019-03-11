@@ -5,7 +5,7 @@ using namespace std;
 
 // 36
 void universidad(){
-    cout<<"En una universidad se pueden llevar hasta 22 créditos en un ciclo.\n\tEscriba un programa que permita a un alumno matricularse, sin pasarse del límite de créditos permitido."<<endl;
+    cout<<"En una universidad se pueden llevar hasta 22 creditos en un ciclo.\n\tEscriba un programa que permita a un alumno matricularse, sin pasarse del limite de creditos permitido."<<endl;
    
     int select;
     int creditos = 0;
@@ -60,7 +60,7 @@ void universidad(){
 // Este ejercicio esta en la seccion de bubles pero se puede 
 //resolver con una simple formulita
 void panaderia(){
-    cout<<"Una vendedora de pan tiene n unidades de pan al comenzar el día. Si cada cliente le pide m panes, ¿Cuántos clientes son atendidos completamente? ¿Cuántos panes quedan para el último cliente?"<<endl;
+    cout<<"Una vendedora de pan tiene n unidades de pan al comenzar el dia. Si cada cliente le pide m panes, ¿Cuantos clientes son atendidos completamente? ¿Cuantos panes quedan para el ultimo cliente?"<<endl;
 
     int panes, clientes, atendidos, sobrantes;
     cout<<"Cantidad de panes: "; cin>> panes;
@@ -70,8 +70,8 @@ void panaderia(){
     sobrantes = panes % clientes; 
 
     cout.precision(1);
-    cout<<"¿Cuántos clientes son atendidos completamente? : "<<atendidos<<endl;
-    cout<<"¿Cuántos panes quedan para el último cliente? : "<<sobrantes<<endl;
+    cout<<"¿Cuantos clientes son atendidos completamente? : "<<atendidos<<endl;
+    cout<<"¿Cuantos panes quedan para el ultimo cliente? : "<<sobrantes<<endl;
 }
 
 // 38

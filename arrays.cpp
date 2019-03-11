@@ -25,7 +25,7 @@ void invertirDatos(){
 // 48
 void mediaArray(){
     int cant, suma = 0, cantPares = 0;
-     cout<<"Cargar un array de n enteros y calcular la media de los que estén en posiciones pares."<<endl;
+     cout<<"Cargar un array de n enteros y calcular la media de los que esten en posiciones pares."<<endl;
      cout<<"Cuantos numeros desea ingresar?"; cin>> cant;
     float numbers[cant];
     for(size_t i = 0; i < cant; i++)

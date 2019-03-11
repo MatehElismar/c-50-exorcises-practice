@@ -7,7 +7,7 @@ using namespace std;
 // 40
 void pares(){
     int a, b, count = 0;
-    cout<<"Muestre todos los pares entre a y b, y diga cuántos son."<<endl;
+    cout<<"Muestre todos los pares entre a y b, y diga cuantos son."<<endl;
     cout<<"Numero A: "; cin>> a;
     cout<<"Numero B: "; cin>> b;
     for(size_t i = a + 1; i < b; i++)
@@ -23,7 +23,7 @@ void pares(){
 
 // 41
 void primos(){ 
-    cout<<"Encuentre todos los números primos de 3 dígitos."<<endl;  
+    cout<<"Encuentre todos los numeros primos de 3 digitos."<<endl;  
 
     int primos = 0, x;
     for (int numero = 100; numero <= 1000; numero++) {//Este bucle aumente cada numero hasta el n indicado por el cliente
@@ -58,7 +58,7 @@ void primos(){
 
 // 42
 void capicua(){ 
-    cout<<"Muestre todos los números capicúas o palíndromos dentro de un rango determinado. \n\tUn número es capicúa cuando al invertir sus cifras nos da el mismo número."<<endl;  
+    cout<<"Muestre todos los numeros capicuas o palindromos dentro de un rango determinado. \n\tUn numero es capicua cuando al invertir sus cifras nos da el mismo numero."<<endl;  
 
    string  stringNumber;
     int n, m, cant = 0;
@@ -90,7 +90,7 @@ void capicua(){
 // 43
 void leerNnumeros(){
     int mayor, menor, suma, cant;
-    cout<<"Leer n números e indique el mayor, menor y el promedio."<<endl;
+    cout<<"Leer n numeros e indique el mayor, menor y el promedio."<<endl;
     cout<<"Cuantos numeros desea ingresar?"; cin>> cant;
     float numbers[cant];
     for(size_t i = 0; i < cant; i++)
@@ -122,7 +122,7 @@ void tabladelcinco(){
 // 45
 void cuarentaycinco(){
     int n;
-    cout<<"Imprima el número 1, una vez; el 2, dos veces; el 3, tres veces; y así sucesivamente hasta llegar a un número n ingresado por teclado."<<endl;
+    cout<<"Imprima el numero 1, una vez; el 2, dos veces; el 3, tres veces; y asi sucesivamente hasta llegar a un numero n ingresado por teclado."<<endl;
     cout<<"Ingrese el numero N: "; cin>> n;
     for(size_t i = 1; i < n; i++)
     {

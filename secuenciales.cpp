@@ -70,7 +70,7 @@ float PerimetroTrianguloRectangulo(){
 // 6
 float areaParalele(){
     float largo, ancho, altura, area;
-    cout<<"Cuál es el volumen de un paralelepípedo de largo, ancho y altura conocidas?"<<endl;
+    cout<<"Cual es el volumen de un paralelepipedo de largo, ancho y altura conocidas?"<<endl;
     cout<<"Largo: "; cin>> largo;
     cout<<"Ancho: "; cin>> ancho; 
     cout<<"Altura: "; cin>> altura; 
@@ -86,7 +86,7 @@ float areaParalele(){
 // 7
 float volumenParalele(){
     float largo, ancho, altura, area;
-    cout<<"Cuál es el volumen de un paralelepípedo de largo, ancho y altura conocidas?"<<endl;
+    cout<<"Cual es el volumen de un paralelepipedo de largo, ancho y altura conocidas?"<<endl;
     cout<<"Largo: "; cin>> largo;
     cout<<"Ancho: "; cin>> ancho; 
     cout<<"Altura: "; cin>> altura; 
@@ -148,7 +148,7 @@ float sumarImpares(){
 // 13
 void hour(){
     int n, suma = 0, cantPares = 0;
-     cout<<"Lea una hora y diga a cuántas horas, minutos y segundos equivale."<<endl;
+     cout<<"Lea una hora y diga a cuantas horas, minutos y segundos equivale."<<endl;
      cout<<"ingrese Numero N: "; cin>> n; 
     
     
@@ -160,7 +160,7 @@ void hour(){
 // 14
 void mediaNumber(){
     int n, suma = 0, cantPares = 0;
-     cout<<"Calcule la media aritmética de los n primeros números enteros positivos."<<endl;
+     cout<<"Calcule la media aritmetica de los n primeros numeros enteros positivos."<<endl;
      cout<<"ingrese Numero N: "; cin>> n; 
     for(size_t i = 0; i <= n; i++)
     { 

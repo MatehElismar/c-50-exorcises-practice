@@ -7,7 +7,7 @@ using namespace std;
 char identifyVocal(){
     int n;
     char vowel;        
-    cout<<"Si las vocales se representan con números del 1 al 5, lea un número y diga que vocal es."<<endl;
+    cout<<"Si las vocales se representan con numeros del 1 al 5, lea un numero y diga que vocal es."<<endl;
     cout<<"Ingrese un numero entero (1 - 5): "; cin>> n;
     switch (n)
     {
@@ -30,7 +30,7 @@ char identifyVocal(){
 string identifyDayOfWeek(){
     int n;
     string day;        
-    cout<<"Lea un número que represente el día de la semana y diga que día es."<<endl;
+    cout<<"Lea un numero que represente el dia de la semana y diga que dia es."<<endl;
     cout<<"Ingrese un numero entero (1 - 5): "; cin>> n;
     switch (n)
     {
@@ -81,7 +81,7 @@ string identifyCalification(){
 string identifyMonth(){
     int n;
     string month;        
-    cout<<"Lea un número que represente el mes y diga que meses es."<<endl;
+    cout<<"Lea un numero que represente el mes y diga que meses es."<<endl;
     cout<<"Ingrese una numero (1 - 12)"; cin>> n;
     switch (n)
     {
@@ -111,7 +111,7 @@ string identifyMonth(){
 string identifyChannel(){
     int n;
     string channel;        
-    cout<<"Lea un número que represente el CANAL y diga cual es."<<endl;
+    cout<<"Lea un numero que represente el CANAL y diga cual es."<<endl;
     cout<<"Ingrese una numero de canal"; cin>> n;
     switch (n)
     { 
@@ -131,7 +131,7 @@ string identifyChannel(){
 
 // 32
 string showAnyMenu(){
-    cout<<"Ejercicio: Muestre las opciones de un menú, seleccione una opción e imprima el mensaje apropiado indicando la opción seleccionada.\n"<<endl;
+    cout<<"Ejercicio: Muestre las opciones de un menu, seleccione una opcion e imprima el mensaje apropiado indicando la opcion seleccionada.\n"<<endl;
     cout<<"Respuesta:\n\t";
     cout<<"TODA LA APLICACION ESTA BASADA EN MENUS"<<endl;
 }
